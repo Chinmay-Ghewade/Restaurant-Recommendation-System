@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Recommendation System</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #f5f5f5; }
+        
+        /* Navbar */
+        .navbar {
+            background: #333;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar h1 { color: white; font-size: 22px; }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+        .navbar a:hover { color: #ff6b6b; }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px;
+            background: white;
+        }
+        .hero-text { max-width: 50%; }
+        .hero-text h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .hero-text p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        .btn {
+            background: #ff6b6b;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .btn:hover { background: #ee5253; }
+        .hero img {
+            width: 40%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>Restaurant Recommendation System</h1>
+        <div>
+            <a href="/">Home</a>
+            <a href="/extractor">Recommend</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-text">
+            <h2>Find Your Perfect Restaurant!</h2>
+            <p>
+                In this age of information overload, people use a variety 
+                of strategies to make choices about where to go. Our 
+                Recommender System will look at the reviews of restaurants 
+                and recommend other restaurants with similar reviews, 
+                sorted from the highest rated.
+            </p>
+            <a href="/extractor" class="btn">Get Recommendation</a>
+        </div>
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500" 
+             alt="Restaurant">
+    </div>
+
+</body>
+</html>
