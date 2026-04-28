@@ -14,3 +14,10 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+# Large model files
+Flask/cosine_similarities.pkl
+Flask/indices.pkl
+Flask/restaurant_percent.csv
+Flask/restaurant1.csv
+Dataset/zomato.csv
