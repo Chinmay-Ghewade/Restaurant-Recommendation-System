@@ -1,3 +1,6 @@
+# Restaurant Recommendation System - Flask App
+# Updated: April 2026
+
 # Importing libraries
 import numpy as np
 import pandas as pd
